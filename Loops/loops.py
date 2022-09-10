@@ -18,3 +18,6 @@ for i in range(25):
     print("Hello, World")
 
 print("")
+
+for i in range(0, 101, 2):
+    print(i)

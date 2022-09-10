@@ -1,7 +1,7 @@
-from cs50 import get_string
+# from cs50 import get_string
 
-answer = get_string("What's your name? ")
-print(f"Hello, {answer}")
+# answer = get_string("What's your name? ")
+# print(f"Hello, {answer}")
 
 """
 print(f"Hello, {answer})
@@ -13,3 +13,9 @@ without the f it would print "Hello, {answer}" if we used the exact line above w
 Feel free to try it to verify.
 """
 
+answer = input("what's your name? ")
+print(f"Hello, {answer}")
+
+"""
+Way to do the above code without the CS50 library.
+"""
